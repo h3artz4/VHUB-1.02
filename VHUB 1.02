@@ -158,7 +158,7 @@ Light.LightingChanged:Connect(dofullbright)
 })
 
 local MovementTab = Window:CreateTab("Movement", nil) -- Title, Image
-local MovementSection = MovementTab:CreateSection("Movement")
+local Section = MovementTab:CreateSection("Movement")
 
 local Slider = MovementTab:CreateSlider({
    Name = "Walksspeed Slider",
